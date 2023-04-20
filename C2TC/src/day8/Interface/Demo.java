@@ -1,8 +1,9 @@
-package Interface;
+package day8.Interface;
 
-public class BankDemo {
+public class Demo {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		SavingAccount sa = new SavingAccount("Reven", "Chennai", 1234, 55000);
 		System.out.println(sa);
 		
@@ -15,6 +16,6 @@ public class BankDemo {
 		sa.deposit(26000);
 		System.out.println(sa);
 	}
-	
 
 }
+

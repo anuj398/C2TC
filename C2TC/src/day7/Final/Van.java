@@ -1,5 +1,5 @@
 package day7.Final;
 
-public class Van {
+public class Van extends Car{
 
 }

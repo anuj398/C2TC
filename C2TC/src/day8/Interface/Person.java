@@ -1,4 +1,4 @@
-package Interface;
+package day8.Interface;
 
 public class Person {
 	private String name;

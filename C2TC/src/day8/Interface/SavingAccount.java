@@ -1,6 +1,8 @@
-package Interface;
+package day8.Interface;
 
-public class SavingAccount extends Person implements Bank {
+public class SavingAccount extends Person  {
+	private static final float MINBAL = 0;
+	private static final float DEPOSIT_LIMIT = 0;
 	private int accNo;
 	private float balance;
 	
@@ -27,7 +29,6 @@ public class SavingAccount extends Person implements Bank {
 	}
 
 
-	@Override
 	public void deposit(float amount) {
 		if(amount > DEPOSIT_LIMIT) {
 			System.out.println("Deposit exceeded the limit");
@@ -38,7 +39,6 @@ public class SavingAccount extends Person implements Bank {
 		}
 	}
 
-	@Override
 	public void withdraw(float amount) {
 		if(amount <= balance - MINBAL) {
 			balance -= amount;
@@ -54,4 +54,5 @@ public class SavingAccount extends Person implements Bank {
 		return "SavingAccount [accNo=" + accNo + ", balance=" + balance + ", getName()=" + getName() + ", getCity()="
 				+ getCity() + "]";
 	}
+	
 }
