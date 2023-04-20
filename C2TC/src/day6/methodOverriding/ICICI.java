@@ -1,4 +1,4 @@
-package day7.methodoverriding;
+package day6.methodOverriding;
 
 public class ICICI extends RBI{
 	public float getRateOfIntrest() {

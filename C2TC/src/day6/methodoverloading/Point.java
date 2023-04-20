@@ -1,4 +1,4 @@
-package day7.overloading;
+package day6.methodoverloading;
 
 public class Point {
 	private float y;
@@ -20,4 +20,5 @@ public class Point {
 	public String toString() {
 		return "Point [y=" + y + ", z=" + z + "]";
 	}
+	
 }

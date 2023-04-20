@@ -1,6 +1,6 @@
-package day7.overloading;
+package day6.methodoverloading;
 
-public class MethodOverloading {
+public class Overloading {
 	public static int add(int a, int b) {
 		return a+b;
 	}

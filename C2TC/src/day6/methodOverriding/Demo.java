@@ -1,4 +1,4 @@
-package day7.methodoverriding;
+package day6.methodOverriding;
 
 public class Demo {
 
@@ -15,7 +15,7 @@ RBI rbi;
 		
 		rbi = new ICICI();
 		System.out.println(rbi.getRateOfIntrest());
-
+	
 	}
 
 }
